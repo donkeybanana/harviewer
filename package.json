@@ -2,21 +2,23 @@
   "name": "harviewer",
   "version": "3.0.0-alpha.0",
   "description": "The purpose of this online tool is to visualize HTTP Archive (HAR) log files created by HTTP tracking tools. These files contain log of HTTP client/server conversation and can be used for an additional analysis of e.g. page load performance.",
-  "devDependencies": {
+  "dependencies": {
     "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
     "cross-env": "^5.2.0",
     "dojo": "^1.14.2",
-    "ejs": "^2.6.1",
     "eslint": "^5.9.0",
     "eslint-config-google": "^0.11.0",
-    "express": "^4.16.4",
     "intern": "^4.2.4",
     "jsdoc": "^3.5.5",
     "jsonfile": "^5.0.0",
     "npm-run-all": "^4.1.5",
     "preprocess": "^3.1.0",
     "replace-in-file": "^3.4.2",
-    "requirejs": "^2.3.6",
     "rimraf": "^2.6.2",
     "selenium-standalone": "^6.15.4",
     "shelljs": "^0.8.3",
